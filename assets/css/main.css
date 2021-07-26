@@ -72,6 +72,33 @@ input, select, textarea {
 	appearance: none;
 }
 
+.imge .image{
+max-width: 100%;	
+height: auto;
+
+}
+.img .image{
+	max-width: 10%;	
+	height: auto;
+	
+	}
+
+
+.left {
+	width:650px;
+	/*float:left;*/
+}
+
+.right {
+	width:160px;
+	/*float:left;*/
+	margin:0 0 0 40px;
+}
+
+.why{
+	float: left;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -103,7 +130,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: Arial,"Open Sans", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -162,11 +189,22 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h5, h6 {
 		color: #fff;
+	
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+	}
+	h4{
+
+		color: #000;
+	
+		font-weight: 900;
+		letter-spacing: 0.225em;
+		line-height: 5em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
 	}
