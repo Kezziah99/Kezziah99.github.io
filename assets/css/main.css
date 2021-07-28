@@ -86,14 +86,20 @@ height: auto;
 
 .left {
 	width:650px;
-	/*float:left;*/
+	float:left;
 }
 
 .right {
-	width:160px;
-	/*float:left;*/
-	margin:0 0 0 40px;
+	/*width:160px;*/
+	float:right;
+	/*margin:0 0 0 650px;*/
 }
+
+.circular--square {
+	border-radius: 50%;
+  }
+  
+  
 
 .why{
 	float: left;
